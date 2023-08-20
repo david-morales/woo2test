@@ -138,29 +138,7 @@ javascriptCopy code
 
 ## `appscript.json` Setup
 
-    {
-    
-    "timeZone": "Europe/Madrid",
-    
-    "dependencies": {
-    
-    "libraries": [
-    
-    {
-    
-    "userSymbol": "Woo2Sheet",
-    
-    "version": "0",
-    
-    "libraryId": "1n-kjtsY2j3Lzh4vCbeEWwnmARoBDtIiMZbH0ediyZkRgNVfCHEBMxxv4",
-    
-    "developmentMode": true
-    
-    }
-    
-    ]
-    
-    },
+  Add this to the appscript.json file, so that the permissions are managed properly.
     
     "oauthScopes": [
     
@@ -172,12 +150,6 @@ javascriptCopy code
     
     "https://www.googleapis.com/auth/script.scriptapp"
     
-    ],
-    
-    "exceptionLogging": "STACKDRIVER",
-    
-    "runtimeVersion": "V8"
-    
-    }
+    ]
 
 
